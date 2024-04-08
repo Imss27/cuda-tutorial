@@ -109,7 +109,7 @@ int tid = blockIdx.x * blockDim.x + threadIdx.x;
 1. Copy `vector_add.cu` to `vector_add_grid.cu`
 
 ```bash
-$> cp vector_add.cu vector_add_thread.cu
+$> cp vector_add.cu vector_add_grid.cu
 ```
 
 2. Parallelize `vector_add()` using multiple thread blocks. 
